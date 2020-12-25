@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>IMC</title>
+</head>
+<body>
+    <div>
+        <h1>Calculo IMC</h1>
+        <form name="imcForm" id="imcForm" action="#">
+            <label>
+                Altura:
+                <input type="number" name="inputHeight" id="inputHeight">
+            </label>
+            <label>
+                Peso:
+                <input type="number" name="inputWeight" id="inputWeight">
+            </label>
+            <label><br>
+                <input class="btn" value="Calcular" type="button" onclick="calqIMC(event)">
+            </label>
+        </form>
+    </div>
+        <div id="resultImc"></div>
+        
+    <script difer src="js/script.js"></script>
+</body>
+</html>
